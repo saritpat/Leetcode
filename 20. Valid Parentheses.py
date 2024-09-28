@@ -35,7 +35,7 @@ print(S.isValid(x))
 
 
 # -----------------------------------------------------
-# Best solution
+# Faster solution
 
 # class Solution(object):
 #     def isValid(self, s):

@@ -26,7 +26,7 @@ print(S.strStr(s, n))
 
 
 # -----------------------------------------------------
-# Best solution
+# Faster solution
 
 # class Solution(object):
 #     def strStr(self, haystack, needle):

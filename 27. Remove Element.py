@@ -24,7 +24,7 @@ print(s.removeElement(nums, v))
 
 
 # -----------------------------------------------------
-# Best solution
+# Faster solution
 
 # class Solution(object):
 #     def removeElement(self, nums, val):

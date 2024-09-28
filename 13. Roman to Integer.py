@@ -36,7 +36,7 @@ print(S.romanToInt(s))
 
 
 # -----------------------------------------------------
-# Best solution
+# Faster solution
 
 # class Solution(object):
 #     def romanToInt(self, s):

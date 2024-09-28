@@ -1,3 +1,6 @@
+# -----------------------------------------------------
+# Faster solution
+
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -18,7 +21,6 @@ S = Solution()
 x = [1,3,5,6]
 t = 7
 print(S.searchInsert(x, t))
-
 
 # class Solution(object):
 #     def searchInsert(self, nums, target):

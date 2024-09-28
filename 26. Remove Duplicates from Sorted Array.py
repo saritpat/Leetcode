@@ -28,7 +28,7 @@ nums = [0,0,1,1,1,2,2,3,3,4]
 print(s.removeDuplicates(nums))
 
 # -----------------------------------------------------
-# Best solution
+# Faster solution
 
 # class Solution(object):
 #     def removeDuplicates(self, nums):

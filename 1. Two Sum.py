@@ -23,7 +23,7 @@ print(S.twoSum(nums, target))
 
 
 # -----------------------------------------------------
-# Best solution
+# Faster solution
 
 # class Solution(object):
 #     def twoSum(self, nums, target):

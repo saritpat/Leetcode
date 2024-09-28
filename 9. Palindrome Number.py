@@ -38,7 +38,7 @@ print(S.isPalindrome(x))
 
 
 # -----------------------------------------------------
-# Best solution
+# Faster solution
 
 # class Solution(object):
 #     def isPalindrome(self, x):
