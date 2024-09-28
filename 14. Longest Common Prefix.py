@@ -25,7 +25,7 @@ print(S.longestCommonPrefix(s))
 
 
 # -----------------------------------------------------
-# Best solution
+# Faster solution
 
 # class Solution(object):
 #     def longestCommonPrefix(self, strs):
