@@ -1,25 +1,26 @@
+# -----------------------------------------------------
+# Faster solution
+
 class Solution(object):
     def singleNumber(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-        lst = []
+        sett = set()
         for i in range(len(nums)):
-            if nums[i] in lst:
-                lst.remove(nums[i])
+            if nums[i] in sett:
+                sett.remove(nums[i])
             else:
-                lst.append(nums[i])
-        
-        return lst[0]
+                sett.add(nums[i])
+
+        for i in sett:
+            return i
 
 S = Solution()
 nums = [4,1,2,1,2]
-print(S.singleNumber(nums)) 
+print(S.singleNumber(nums))
 
-
-# -----------------------------------------------------
-# Faster solution
 
 # class Solution(object):
 #     def singleNumber(self, nums):
