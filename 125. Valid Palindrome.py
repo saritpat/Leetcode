@@ -20,13 +20,11 @@ class Solution(object):
 
 
         for i in front:
-            if i.isalnum():
-                lst.append(i)
+            lst.append(i)
         
         for i in back:
-            if i.isalnum():
-                if i == lst[-1]:
-                    lst.pop()
+            if i == lst[-1]:
+                lst.pop()
         
         if len(lst) == 0:
             return True
