@@ -1,3 +1,6 @@
+# -----------------------------------------------------
+# Faster solution
+
 class Solution(object):
     def majorityElement(self, nums):
         """
